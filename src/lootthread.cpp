@@ -62,7 +62,7 @@ std::string ToLower(const std::string &text)
 void LOOTWorker::setGame(const std::string &gameName)
 {
 	static std::map<std::string, GameType> gameMap = boost::assign::map_list_of
-	("oblivion", GameType::tes4)
+	  ("oblivion", GameType::tes4)
 		("fallout3", GameType::fo3)
 		("fallout4", GameType::fo4)
 		("fallout4vr", GameType::fo4vr)
